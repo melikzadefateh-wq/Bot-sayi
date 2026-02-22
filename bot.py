@@ -6,7 +6,8 @@ import asyncio
 
 # AYARLAR
 TOKEN = os.getenv("TOKEN")  # <-- Eskiden burası düz yazılmış token idi
-SAYI_KANAL_ID = 1381708110321811547
+# if message.channel.id != SAYI_KANAL_ID:
+#     return
 SAYI_DOSYA = "sayi_veri.json"
 
 def veri_yukle():
